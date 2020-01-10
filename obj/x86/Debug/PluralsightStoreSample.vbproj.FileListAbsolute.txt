@@ -1,0 +1,2 @@
+C:\Users\ahmed.salem\source\repos\Angular-AlbumStoreProductPage\obj\x86\Debug\PluralsightStoreSample.vbprojAssemblyReference.cache
+C:\Users\ahmed.salem\source\repos\Angular-AlbumStoreProductPage\obj\x86\Debug\PluralsightStoreSample.vbproj.CoreCompileInputs.cache

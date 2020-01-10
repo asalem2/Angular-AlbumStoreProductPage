@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{6A888FD8-E01B-42C7-B9DC-DC0D7BCC714A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>PluralsightStoreSample</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".angular-cli.json" />
+    <None Include=".dockerignore" />
+    <None Include=".editorconfig" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-6c6d731259fc0ff30047ab925f581f9c061cd954.idx" />
+    <None Include=".git\objects\pack\pack-6c6d731259fc0ff30047ab925f581f9c061cd954.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".npmrc" />
+    <None Include=".nvmrc" />
+    <None Include="e2e\tsconfig.e2e.json" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <None Include="src\assets\.gitkeep" />
+    <None Include="src\assets\album.json" />
+    <None Include="src\assets\products.json" />
+    <None Include="src\tsconfig.app.json" />
+    <None Include="src\tsconfig.spec.json" />
+    <None Include="tsconfig.json" />
+    <None Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="karma.conf.js" />
+    <Content Include="protractor.conf.js" />
+    <Content Include="src\app\app.component.css" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\product-page\product-page.component.css" />
+    <Content Include="src\app\product-page\product-page.component.html" />
+    <Content Include="src\assets\opacity-zero.jpg" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\index.html" />
+    <Content Include="src\spec\mocha-specs\helpers.js" />
+    <Content Include="src\spec\mocha-specs\part2\app-product-description-selector.spec.js" />
+    <Content Include="src\spec\mocha-specs\part2\app-product-page-selector.spec.js" />
+    <Content Include="src\spec\mocha-specs\part2\product-description-component-created.spec.js" />
+    <Content Include="src\spec\mocha-specs\part2\product-description-component-css1.spec.js" />
+    <Content Include="src\spec\mocha-specs\part2\product-description-component-css2.spec.js" />
+    <Content Include="src\spec\mocha-specs\part2\product-description-html-moved.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-description-html-uses-dynamic-albuminfo-band.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-description-html-uses-dynamic-albuminfo-imageurl.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-description-html-uses-dynamic-albuminfo-name.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-description-html-uses-dynamic-albuminfo-releasedate.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-description-injects-product-service.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-description-ngoninit-calls-getalbum.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-added-to-providers-array.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-exists.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-getalbum-method-maps-response-to-json.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-getalbum-method-returns-album-json.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-has-albumurl-property.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-has-getalbum-method.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-imported-into-app-module.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-imported-into-product-description.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-imports-http-and-response.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part3\product-service-injects-http.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\album-interface-exists.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\album-interface-has-four-properties.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\album-interface-imported-into-product-description.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\album-interface-imported-into-product-service.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\product-description-albuminfo-property-typed-to-album.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\product-service-getalbum-method-returns-typed-observable.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\product-service-types-getalbum-responsejson-to-album.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\track-interface-exists.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\track-interface-has-four-properties.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part4\track-interface-imported-into-album-interface.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\album-interface-imported-into-product-tracklisting.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-service-imported-into-product-tracklisting.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-component-created.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-component-css1.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-component-css2.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-component-css3.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-component-css4.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-has-albuminfo-property.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-html-moved.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-html-uses-ngfor-to-enumerate-tracks.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-html-uses-track-object-data.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-injects-product-service.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part5\product-tracklisting-ngoninit-calls-getalbum.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\app-product-list-selector.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-interface-exists.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-interface-has-three-properties.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-interface-imported-into-product-list.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-interface-imported-into-product-service.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-list-component-created.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-list-has-products-property.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-list-html-uses-ngfor-to-enumerate-products.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-list-injects-product-service.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-list-ngoninit-calls-getproducts.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-list-ul-contains-li-with-albumnames.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-service-getproducts-method-maps-response-to-json.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-service-getproducts-method-returns-products-json.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-service-getproducts-method-returns-typed-observable.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-service-has-getproducts-method.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-service-has-productsurl-property.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part6\product-service-imported-into-product-list.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\app-component-html-uses-router-outlet.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\app-module-approutes-array-contains-correct-default-route.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\app-module-approutes-array-contains-correct-object1.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\app-module-approutes-array-contains-correct-object2.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\app-module-defines-approutes-array.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\app-module-imports-routermodule.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\app-module-ngmodule-imports-approutes.mocha.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\product-list-anchor-tags-have-routerlink-attribute.spec.js" />
+    <Content Include="src\spec\mocha-specs\part7\product-list-li-tags-contain-anchor-tags.spec.js" />
+    <Content Include="src\styles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="e2e\app.po.ts" />
+    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\product-page\product-page.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\product-page\product-page.component.ts" />
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\spec\part2\app-product-description-selector.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part2\app-product-page-selector.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part2\product-description-component-created.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part2\product-description-component-css1.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part2\product-description-component-css2.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part2\product-description-html-moved.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part3\product-description-html-uses-dynamic-albuminfo-band.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part3\product-description-html-uses-dynamic-albuminfo-imageurl.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part3\product-description-html-uses-dynamic-albuminfo-name.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part3\product-description-html-uses-dynamic-albuminfo-releasedate.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part3\product-service-getalbum-method-maps-response-to-json.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part3\product-service-getalbum-method-returns-album-json.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-component-created.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-component-css1.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-component-css2.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-component-css3.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-component-css4.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-html-moved.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-html-uses-ngfor-to-enumerate-tracks.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part5\product-tracklisting-html-uses-track-object-data.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part6\app-product-list-selector.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part6\product-list-component-created.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part6\product-list-html-uses-ngfor-to-enumerate-products.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part6\product-list-ul-contains-li-with-albumnames.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part6\product-service-getproducts-method-maps-response-to-json.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part6\product-service-getproducts-method-returns-products-json.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part7\app-component-html-uses-router-outlet.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part7\product-list-anchor-tags-have-routerlink-attribute.projects.spec.ts" />
+    <TypeScriptCompile Include="src\spec\part7\product-list-li-tags-contain-anchor-tags.projects.spec.ts" />
+    <TypeScriptCompile Include="src\test.ts" />
+    <TypeScriptCompile Include="src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
